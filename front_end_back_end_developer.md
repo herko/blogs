@@ -23,8 +23,13 @@ Samostatnú kapitolu by mohli tvoriť webové frameworky ako Ruby on Rails Larav
 
 Každá webová aplikácia má iné nároky a výber technológií často súvisí aj so skúsenosťami a preferenciami tímu riadeného skúseným CTO. Takýto koktejl technológií sme namiešali v Learn2Code pre naše projekty:
 
-Pracujeme s frameworkom **Ruby on Rails**. S front-end časťou aplikácie nám v Rails pomáha **SASS** preprocesor, vďaka ktorému máme CSS štýly organizované v komponentoch a veľmi jednoducho sa v nich orientuje. Na niektoré časti aplikácie learn2code.sk sme nasadili **React** - prezeranie videí, fórum. Začíname ale experimentovať aj s **Vue.js**. React a všetky jeho závislosti spravuje **WebPack**, ktorý nakoniec vypľuje jeden veľký `bundle.js` súbor.
+### Front-End
+Pracujeme s frameworkom **Ruby on Rails**. S *front-end* časťou aplikácie nám v Rails pomáha **SASS** preprocesor, vďaka ktorému máme CSS štýly organizované v komponentoch a veľmi jednoducho sa v nich orientuje. Základ nášho layoutu tvorí framework **Bootstrap**, ktorého vzhľad je upravený pomocou **CSS** štýlov - opäť s využitím SASS. Na niektoré časti aplikácie learn2code.sk sme nasadili **React** - prezeranie videí, fórum. V starších projektoch stále využívame **jQuery**. Začíname ale experimentovať aj s **Vue.js**. **React** a všetky jeho závislosti spravuje **NPM** - Node Package Manager a **WebPack**, ktorý nakoniec vypľuje jeden veľký `bundle.js` súbor.
 
-Keďže používame Rails, back-end je písaný v skriptovacom jazyku **Ruby**. Na testovanie používame **RSpec**, **Mocha**. Aplikácie nám bežia na serveroch **Heroku**. Používame relačnú databázu **PostgreSQL**, kde máme uložené všetky dáta. Obrázky skladujeme na **Amazon S3**. Video obsah je uložený na serveroch **Vimeo**, s ktorými komunikuje React prostredníctvom **REST API**. Kód všetkých projektov skladujeme v privátnych repozitároch na **GitHub**. Na nekvalitný kód nás neustále upozorňuje **RuboCop**. Nasadenie nových funkcií do hlavnej aplikácie je riadené s pomocou **Continuous Integration** - CodeShip.com.
+### Back-End
+Keďže používame Rails, *back-end* je písaný v skriptovacom jazyku **Ruby**. Na testovanie používame **RSpec**. Používame relačnú databázu **PostgreSQL**, kde máme uložené všetky dáta. 
 
-Niektoré z technológií možno poznáš. Niektoré z nich Ťa dokonca vieme naučiť aj u nás v Learn2Code. 
+### DevOps
+Aplikácie nám bežia na serveroch **Heroku**. Obrázky skladujeme na **Amazon S3**. Video obsah je uložený na serveroch **Vimeo**, s ktorými komunikuje React prostredníctvom **REST API**. Kód všetkých projektov skladujeme v privátnych repozitároch na **GitHub**. Na nekvalitný kód nás neustále upozorňuje **RuboCop** a **JSHint**. Nasadenie nových funkcií do hlavnej aplikácie je riadené s pomocou **Continuous Integration** - CodeShip.com.
+
+Niektoré z technológií, ktoré používame možno poznáš. Niektoré z nich Ťa dokonca vieme naučiť aj u nás v Learn2Code..
