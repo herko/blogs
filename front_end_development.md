@@ -22,18 +22,18 @@ Určite postupom času prejdeš z jednoduchých webstránok na zložitejšie web
 ![Level 2: CSS nástroje a responzívny dizajn](http://i.imgur.com/v2YAW3m.png)
 
 ### CSS
-Použi SASS - parádny preprocessor CSS štýlov, ktorý Ti umožní organizovať štýly prehľadne do priečinkov/súborov. Tiež môžeš zadefinovať premenné, ktoré obsahujú definície farieb, ktoré často používaš, alebo okraje - aby vyzerali všade rovnako. Ak ich potrebuješ zmeniť na viacerých miestach, prepíšeš hodnotu jednej premennej a máš to vyriešené. SASS vie pracovať aj s jednoduchými funkciami. Často používanými sú napr. `lighten()` a `darken()`, ktoré dokážu danú farbu zosvetliť alebo stmaviť. SASS má tých funkcií a možností samozrejme ďaleko viac.
+Použi ***SASS*** - parádny _preprocessor_ CSS štýlov, ktorý Ti umožní organizovať štýly prehľadne do priečinkov/súborov. Tiež môžeš zadefinovať premenné, ktoré obsahujú definície farieb, ktoré často používaš, alebo okraje - aby vyzerali všade rovnako. Ak ich potrebuješ zmeniť na viacerých miestach, prepíšeš hodnotu jednej premennej a máš to vyriešené. SASS vie pracovať aj s jednoduchými funkciami. Často používanými sú napr. `lighten()` a `darken()`, ktoré dokážu danú farbu zosvetliť alebo stmaviť. SASS má tých funkcií a možností samozrejme ďaleko viac.
 
 Ďalšími alternatívami k SASS môže byť LESS, Stylus, PostCSS a ďalšie. My v Learn2Code sme si obľúbili SASS.
 
 ### Responzívny dizajn
-Responzívny dizajn rieši problém so zobrazovaním Tvojho webu na rôznych zariadeniach. Pre front-end programátora je neodmysliteľnou súčasťou jeho skills. Mobilných zariadení je viac ako obyvateľov na svete - musíme optimalizovať aj pre malé obrazovky.
+***Responzívny dizajn*** rieši problém so zobrazovaním Tvojho webu na rôznych zariadeniach. Pre front-end programátora je neodmysliteľnou súčasťou jeho skills. Mobilných zariadení je viac ako obyvateľov na svete - musíme optimalizovať aj pre malé obrazovky.
 
-Samotné HTML a CSS3 má v sebe nástroje, ktoré nám pri takejto optimalizácii môžu pomôcť. Napríklad veľmi dôležitý HTML meta tag je `viewport`, ktorý prispôsobí veľkosť písma pre malé obrazovky tak, aby nebolo príliž malé:
+Samotné HTML a CSS3 má v sebe nástroje, ktoré nám pri takejto optimalizácii môžu pomôcť. Napríklad veľmi dôležitý ***HTML meta tag*** je `viewport`, ktorý prispôsobí veľkosť písma pre malé obrazovky tak, aby nebolo príliž malé:
 ```
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
-Pomocou CSS tiež dokážeme ošetriť responzivitu tak, že na šírku elementov budeme používať percentuálne hodnoty a pravidlo `box-sizing: border-box;`. Takto môžeme zadefinovať vlastný grid, kde tieto pravidlá použijeme.
+Pomocou CSS tiež dokážeme ošetriť responzivitu tak, že na šírku elementov budeme používať ***percentuálne hodnoty*** a pravidlo `box-sizing: border-box;`. Takto môžeme zadefinovať vlastný ***grid***, kde tieto pravidlá použijeme.
 
 CSS3 nám veľmi pomáha pri responzívnom dizajne s `@media` query. Pomocou `@media` dokážeme oddeliť CSS, ktoré bude platiť napríklad pri rozlíšeniach menších ako 1000px od pravidiel, ktoré budú platiť pre rozlíšenia vyššie ako 1000px. Výborná vec. Responzívnemu dizajnu venoval Yablko tiež kopec videí v kurze Webrebel 1.
 
@@ -42,10 +42,10 @@ CSS3 nám veľmi pomáha pri responzívnom dizajne s `@media` query. Pomocou `@m
 
 Ak si Bootstrap obľúbiš a spoznáš ho poriadne, začneš experimentovať s upravovaním jeho vzhľadu a pridávaním nových funkcií napríklad cez JavaScript. Na internete nájdeš kopec pluginov, ktoré rozširujú jeho možnosti.
 
-Alternatívami k Bootstrapu môžu byť: Foundation framework, Materialize CSS, Semantic UI a rôzne iné.
+Alternatívami k Bootstrapu môžu byť: Foundation, Materialize CSS, Semantic UI a rôzne iné.
 
 ## Level 3: JavaScript
-Dostávame sa do posledného levelu front-end programátora, tak vysúkajme rukávy a poďme na to :) JavaScript je jedným z najpopulárnejších jazykov.
+Dostávame sa do posledného levelu front-end programátora, tak vysúkajme rukávy a poďme na to :) ***JavaScript*** je jedným z najpopulárnejších jazykov.
 
 ![Level 3: JavaScript nástroje, knižnice a frameworky](http://i.imgur.com/gES0Mvz.png)
 
@@ -66,13 +66,13 @@ JavaScript našťastie obsahuje obrovské množstvo nástrojov, ktoré nám pom�
 ### JavaScript frameworky a knižnice
 Podobne ako nám Bootstrap pomohol s responzivitou a niektorými často používanými komponentami, existujú aj JavaScript frameworky, ktoré dopĺňajú svet front-end programátora a celý vývoj komplikovanej SPA urýchľujú. Opísať každý framework nie je úlohou tohoto článku, ak však niektorý z nich preferuješ, napíš nám do komentárov ktorý a prečo. Tu sú najpoužívanejšie:
 
-- ***React*** - Facebook vytvoril react ako riešenie pre svoje komplikované používateľske prostredie. Hlavnou ideou je vytvorenie komponentov, ktoré sa dajú použiť na viacerých miestach v aplikácii. Ak užívateľ vykoná nejakú akciu a zmení sa obsah stránky - prehliadač prekreslí len konkrétny komponent.
-- ***Vue.JS*** - Alternatívnou knižnicou k Reactu je Vue.JS, ktorá sa teší čoraz väčšej popularite. Výhodou je prehľadnejší a ľahší syntax, kde sa nemieša HTML kód s JavaScriptom - čo niektorým vývojárom nevyhovovalo
+- ***React*** - Facebook vytvoril React ako riešenie pre svoje komplikované používateľske prostredie. Hlavnou ideou je vytvorenie komponentov, ktoré sa dajú použiť na viacerých miestach v aplikácii. Ak užívateľ vykoná nejakú akciu a zmení sa obsah stránky - prehliadač prekreslí len konkrétny komponent.
+- ***Vue.JS*** - Alternatívnou knižnicou k Reactu je Vue.js, ktorá sa teší čoraz väčšej popularite. Výhodou je prehľadnejší a ľahší syntax, kde sa nemieša HTML kód s JavaScriptom - čo niektorým vývojárom nevyhovovalo
 - ***AngularJS*** - Vytvorený firmou Google je na rozdiel od React a VueJS plnohodnotným frameworkom - obsahuje aj nástroje na komunikáciu s databázou.
 
 Ďalšie alternatívy k najpoužívanejším frameworkom/knižniciam: EmberJS, Preact, Inferno a mnohé iné.
 
 ## Level 4:
-Áno, existuje aj level 4. Sú to prídavné vedomosti naskillovaného front-end programátora. Napríklad bezpečnosť - prevencia pred CSRF, XSS, DNS pinning alebo clickjacking útokmi. Tiež poznanie psychológie používateľa je obrovskou výhodou - priorizovať použiteľnosť a prístupnosť aplikácie pred odvážnym dizajnom. Marketing, SEO, ... a mohli by sme ísť ďalej.
+Áno, existuje aj level 4. Sú to prídavné vedomosti naskillovaného front-end programátora. Napríklad ***bezpečnosť*** - prevencia pred CSRF, XSS, DNS pinning alebo clickjacking útokmi. Tiež poznanie ***psychológie používateľa*** je obrovskou výhodou - priorizovať ***použiteľnosť*** a ***prístupnosť*** aplikácie pred odvážnym dizajnom. Marketing, SEO, ... a mohli by sme ísť ďalej.
 
-Dôležité je nikdy sa neprestať vzdelávať, získať čo najväčší rozhľad v technológiách a v neposlednom rade nepodľahnúť popularite niektorého z nástrojov, ale zvoliť nástroj tak, aby splnil svoj účel.
+Dôležité je ***nikdy sa neprestať vzdelávať***, získať čo najväčší rozhľad v technológiách a v neposlednom rade nepodľahnúť popularite niektorého z nástrojov, ale zvoliť nástroj tak, aby splnil svoj účel.
