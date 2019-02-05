@@ -1,6 +1,6 @@
 # Ako sa nepredávkovať návodmi
 
-[img]: ./tutorials-never-ending-story/intro.jpg
+![Intro](https://i.imgur.com/7QQih2H.jpg)
 
 Tak. Rozhodol si sa naučiť programovať (na learn2code si správne!). Je jedno, či chceš byť Web Developer ([FrontEnd](https://www.learn2code.sk/kurzy/webrebel-1-html-css-javascript), [BackEnd](https://www.learn2code.sk/kurzy/zaklady-programovania-a-oop)), chceš sa vzdelávať v konkrétnom jazyku ([PHP](https://www.learn2code.sk/kurzy/webrebel-2-php), [JavaScript](https://www.learn2code.sk/kurzy/online-kurz-javascript-es6), [Java](https://www.learn2code.sk/kurzy/java-pre-zaciatocnikov), [C#](https://www.learn2code.sk/kurzy/uvod-do-programovania-v-jazyku-csharp)), alebo si sa ešte nerozhodol, a chceš sa len [naučiť programovať](https://www.learn2code.sk/kurzy/online/programovanie).
 
@@ -12,7 +12,7 @@ Možno si sa už ocitol v tom začarovanom kruhu, kedy po ukončení jedného ku
 
 ## Portfólio programátora
 
-[img]: ./tutorials-never-ending-story/portfolio.jpg
+![Portfólio](https://i.imgur.com/gpZ9QNj.jpg)
 
 V zaujímavom CV nemusí byť veľa projektov. Ten, kto ho bude čítať vie, či Tvoje portfólio obsahuje zaujímavé projekty, kde si sa stretol s nejakými výzvami. Pri absolvovaní kurzov si možno vytvoril jednoduchú aplikáciu na správu poznámok v Markdown formáte. Alebo sociálnu sieť, Twitter podľa tvojej chuti. 
 
@@ -22,7 +22,7 @@ Najdôležitejšie na tom však je, že tie projekty nie sú tvoje. Tvoj projekt
 
 ## Na čom teda začať makať?
 
-[img]: ./tutorials-never-ending-story/coding.jpg
+![Začni programovať](https://i.imgur.com/JE2teRE.jpg)
 
 Každý programátor si dobré nápady na aplikácie chráni. Návšteva programátorského fóra s otázkou typu "Nemáte náhodou nápad na nejaký zaujímavý projekt?" bude skôr cieľom posmechu ako zdrojom nápadov pre tvoje projekty. Nezúfaj, mám pre Teba niekoľko rád ako svoj mozog nenechať oddychovať príliž dlho.
 
