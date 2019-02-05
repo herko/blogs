@@ -37,13 +37,13 @@ Niektoré projekty možno nekorenšpondujú s tvojou ideovou predstavou a môžu
 ### Level 1 - jednoduché projekty
 #### Lunch picker
 
-- Takáto appka už existuje, ale urob vlastnú verziu. Podstata je, že vždy keď sa nevieš rozhodnúť, kam s kamošmi pôjdeš napivo, nechaj to na výpočtovú silu.
-- **Zadanie môže mať dve úrovne:** Prvá úroveň je, že databázu miest na "zábavu" si vytvoríš sám a appka náhodne vyberie niektorú z nich. Druhá úroveň by bola, ak použiješ niektoré existujúce API (Google Reviews), ktoré ťa vie lokalizovať a databázu získaš odtiaľ.
+- Takáto appka už existuje, ale urob vlastnú verziu. Podstata je, že vždy keď sa nevieš rozhodnúť, kam s kamošmi pôjdeš na pivo, nechaj to na výpočtovú silu.
+- **Zadanie môže mať dve úrovne:** Prvá úroveň je, že databázu miest na "zábavu" si vytvoríš sám a appka náhodne vyberie niektorú z nich. Druhá úroveň by bola, ak použiješ niektoré existujúce API ([Google Reviews](https://developers.google.com/my-business/content/review-data)), ktoré ťa vie lokalizovať a databázu získaš odtiaľ.
 
 #### Collection tracker
 
 - Publikuj svoju zbierku "čohokoľvek" vo forme katalógu. Premysli štruktúru kažej položky, skús ich kategorizovať, implementovať vyhľadávanie. Jednoduchý projektík o niečom, čo ťa skutočne baví.
-- **Zadanie môže mať dve úrovne:** Prvá vo forme jednoduchej MVC aplikácie s Bootstrapom, napísaná v Laraveli alebo RubyOnRails. Väčší skiller si môže trúfnuť navrhnúť API a dizajn implementovať v niektorej JS knižnici - VueJS, React.
+- **Zadanie môže mať dve úrovne:** Prvá vo forme jednoduchej MVC aplikácie s Bootstrapom, napísaná v Laraveli alebo RubyOnRails. Väčší skiller si môže trúfnuť navrhnúť API a dizajn implementovať v niektorej JS library - [VueJS](https://vuejs.org/), [React](https://reactjs.org/docs/getting-started.html).
 
 #### Spoiler blocker pre clanky
 
@@ -52,7 +52,7 @@ Niektoré projekty možno nekorenšpondujú s tvojou ideovou predstavou a môžu
 
 #### Tax forecaster
 
-- Aj keď politici sa nás snažia presvedčiť, že si zaslúžime istoty, jedinou istotou v živote sú dane. Navrhni nejakú jednoduchú appku, ktorá bude zbierať sumy tvojich freelance faktúr a na základe vzorca, ktorý zistíš online (a naučíš sa pritom aj prečo platíš toľko na daniach).
+- Aj keď politici sa nás snažia presvedčiť, že si zaslúžime istoty, jedinou istotou v živote sú dane. Navrhni nejakú jednoduchú appku, ktorá bude zbierať sumy tvojich freelance faktúr na základe vzorca, ktorý zistíš online (a naučíš sa pritom aj prečo platíš toľko na daniach).
 - **Zadanie môže mať dve úrovne:** Prvá úroveň je samotný jednoduchý výpočet - zadáš číslo a dostaneš hodnotu, ktorú zaplatíš štátu. Druhou úrovňou môže byť databáza s históriou tvojich FA a implementácia grafov, kde môžeš s pomocou knižnice [D3](https://d3js.org/) vykresliť pekné reporty, koľko si zarobil a ako sa tvoj zárobok vyvíjal. Ak je samotná D3 knižnica príliž komplexná, môžeš sa skúsiť pohrabať v [knižniciach](https://github.com/wbkd/awesome-d3#charts), ktoré používanie D3js zjednodušujú.
 
 #### FlashCard generator
@@ -78,7 +78,7 @@ Niektoré projekty možno nekorenšpondujú s tvojou ideovou predstavou a môžu
 #### Downtime tracker
 
 - Ak máš obľúbený web, alebo plánuješ niekoľko svojich projektov, môžeš testovať, či náhodou tvoje aplikácie nemajú nejaký problém. Jednoduchým scriptom pristúpiš na URL svojej aplikácie a ak skript nevráti `HTTP Response 200` , tak ťa tracker notifikuje emailom, že sa niečo deje.
-- **Zadanie môže mať dve úrovne:** Prvou úrovňou môže byť notifikácia emailom. Druhou úrovňou môže byť notifikácia pomocou SMS brány (Twilio), alebo web hook do tvojho Slacku - ak používaš slack.
+- **Zadanie môže mať dve úrovne:** Prvou úrovňou môže byť notifikácia emailom. Druhou úrovňou môže byť notifikácia pomocou SMS brány ([Twilio](https://www.twilio.com/docs/usage/api)), alebo [web hook](https://api.slack.com/incoming-webhooks) do tvojho Slacku - ak používaš slack.
 
 ### Level 3 - náročnejšie projekty
 #### Slack bot
@@ -96,7 +96,7 @@ Niektoré projekty možno nekorenšpondujú s tvojou ideovou predstavou a môžu
 
 #### Quiz Maker
 
-- Ak sa nudíš, môžeš prispieť aj k efektivite nášho školstva. Keď som učil ja, učitelia používali Hot Potatoes ako ich testovaciu platformu. Alebo vytlačené testy s kolonkami. Vstupom do tvojej quiz platformy môže byť JSON, ktorý bude obsahovať vhodne zvolenú štruktúru testovacích otázok, možných odpovedí a označenia správnej odpovede.
+- Ak sa nudíš, môžeš prispieť aj k efektivite nášho školstva. Keď som učil ja, učitelia používali [Hot Potatoes](https://hotpot.uvic.ca/) ako ich testovaciu platformu. Alebo vytlačené testy s kolonkami. Vstupom do tvojej quiz platformy môže byť JSON, ktorý bude obsahovať vhodne zvolenú štruktúru testovacích otázok, možných odpovedí a označenia správnej odpovede.
 - **Zadanie môže mať tri úrovne:** Prvou môže byť vygenerovanie testu z holého `.json` súboru. Druhou môže byť vytvorenie adminstračného rozhrania, kde si testujúci otázky a možné odpovede vykliká vo formulári. Treťou úrovňou môže byť implementácia rôzneho typu testovacej otázky (jedna správna odpoveď, viac správnych odpovedí, dopísanie správnej odpovede, zoradenie do správneho poradia, vytvorenie správnych párov, ...)
 
 #### Browser extension
@@ -115,6 +115,6 @@ Ak nehľadáš nápad na projekt, ale radšej by si sa zdokonalil v riešení al
    - Podobne ako Advent of Code, aj toto je zbierka zadaní, ktoré sú však už len archívom. To však neznamená, že neobsahuje dostatok zadaní - je ich tam takmer 650. Pri každom zadaní je uvedený aj počet ľudí, ktorí zadanie vyriešili.
    - Zadania môžeš riešiť v ktoromkoľvek jazyku
 3. [Daily Coding Problem](https://www.dailycodingproblem.com/)
-   - Toto je mailinglist, ktorý ti každý deň pošle jeden programátorský problém, ktorý môžeš rozlúsknuť. Problémy z tejto banky pochádzajú z pracovných pohovorov vo firmách, ako sú Google, AirBnB, Facebook, Apple a rôzne iné. Ich obtiažnosť je preto niekedy dosť vysoká. Ak sa ale pripravuješ na pracovný pohovor, tieto úlohy ti môž pomôcť.
+   - Toto je mailinglist, ktorý ti každý deň pošle jeden programátorský problém, ktorý môžeš rozlúsknuť. Problémy z tejto banky pochádzajú z pracovných pohovorov vo firmách, ako sú Google, AirBnB, Facebook, Apple a rôzne iné. Ich obtiažnosť je preto niekedy dosť vysoká. Ak sa ale pripravuješ na pracovný pohovor, tieto úlohy ti môžu pomôcť.
    - Nevýhodou je, že k riešeniam sa dostaneš až ak si ich predplatíš.
 
