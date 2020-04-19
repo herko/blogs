@@ -40,6 +40,8 @@ ECMA International zastrešuje veľa štandardov, ten, ktorý sa týka implement
 
 Komisia (rozumej: živé bytosti, ľudia), ktorá rozhoduje o tom, aké nové funkcie bude nová verzia JavaScriptu obsahovať, dostala zase názov TC-39. Členom tejto komisie nie je hocikto. Sú to [frajeri](https://github.com/orgs/tc39/people?page=1 "Členovia komisie TC-39") - vybraní ľudia, ktorí zastupujú veľké firmy pôsobiace na online trhu (Facebook, PayPal, Google, Amazon, Mozilla...)
 
+![Niektorí členovia TC-39](how_javascript_features_are_born/tc-39-members.png "Niektorí členovia TC-39")
+
 ## Nová funkcionalita v JS - schvaľovací proces
 
 Členovia TC-39 organizujú meetingy (väčšinou online) každé dva mesiace. Cieľom týchto meetingov je dopodrobna rozkecať a zanalyzovať ktoré funkcie bude obsahovať nová verzia ECMAScript, alebo aké opravy budú v tejto verzii vykonané. Zaujímavé je, že táto komisia funguje na princípe zhody - takmer všetci členovia komisie musia súhlasiť s návrhom, aby sa ním čo i len začali zaoberať.
