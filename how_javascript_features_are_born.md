@@ -10,7 +10,7 @@ O tom, aké problémy riešia tieto nové funkcionality si povieme v ďalšom bl
 
 V roku 1995 vyhrával oscary Tom Hanks s filmom Forest Gump, v rádiách fičal Gansta's Paradise od Coolia a web BBC vypadal takto:
 
-![alt text](how_javascript_features_are_born/bbc_website.jpg "Web BBC")
+![BBC HomePage in 1995](how_javascript_features_are_born/bbc_website.jpg "Web BBC")
 
 80% používateľov internetu surfovalo v prehliadači Netscape Navigator a Microsoft ešte len končil vývoj Internet Explorer-a. Ak ho vôbec niekedy dokončili.
 
@@ -27,6 +27,8 @@ Vytvorenie prvej verzie Mocha trvalo len 10 dní. Neskôr bol tento jazyk premen
 Internet Explorer chcel tiež držať krok s dobou a preto začali aj v MS pracovať na implementácii čohosi, čo bolo veľmi podobné JavaScriptu. Finálny jazyk sa volal JScript. Implementácia však bola natoľko odlišná od JavaScript-u, že tieto implementácie neboli navzájom kompatibilné! Výsledkom bola skutočnosť, že nebolo možné vytvoriť jeden web, ktorý by fungoval v oboch prehliadačoch.
 
 Tak vznikli slávne nálepky do footerov: "Best viewed in Internet Explorer" a "Best viewed in Netscape Navigator".
+
+![Best viewed in badges](how_javascript_features_are_born/best_viewed_in.png "Best Viewed In badges")
 
 Tvoriť weby v tej dobe nebola žiadna sranda, vývojári volali po štandarde, ktorý zjednotí implementácie JavaScriptu a JScriptu. Preto bol vytvorený štandard ECMAScript, ktorý zastrešila organizácia ECMA International. Tá fungovala už dávno predtým a jej úlohou bolo práve vytvárať štandardy pre informačné a komunikačné systémy.  Od novembra 1996 existuje teda štandard ECMAScript, ktorý popisuje, ako má byť implementovaný JavaScript Engine.
 
