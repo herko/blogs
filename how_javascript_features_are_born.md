@@ -2,7 +2,7 @@
 Tento rok nám frajeri z TC-39 (ak nevieš čo TC-39 je, čítaj ďalej) naservírujú novú verziu ECMAScript špecifikácie - novinky, ktoré môžeme ako vývojári používať pri programovaní v JavaScript-e. `BigInt`, optional chaining, `Promise.allSettled`, `String.matchAll`, `globalThis` a iné.
 
 O tom, aké problémy riešia tieto nové funkcionality si povieme v ďalšom blogu. Tento text je venovaný špecifikácii ECMAScript a okrem iného sa dočítaš:
-- prečo potrebujeme špecifikáciu to na to, ako implementovať JavaScript Engine v prehliadači
+- prečo potrebujeme špecifikáciu na to, ako implementovať JavaScript Engine v prehliadači
 - prečo sa špecifikácia nevolá JavaScript, ale ECMAScript a čo je to vlastne tá ECMA
 - ako dlho trvá, kým sa nápad novej funkcionality jazyka JavaScript stane jeho súčasťou
 
