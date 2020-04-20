@@ -18,15 +18,15 @@ Nie všetci boli spokojní s tým, ako web vtedy fungoval: statický obsah, zdie
 
 Brendan Eich (meno si treba zapamätať - je to frajer) je človek, ktorý tento programovací jazyk začal tvoriť. Prvým pokusom bola implementácia jazyka SCHEME do prehliadača Netscape.
 
-Mimochodom - javisti v SUN Microsystems premýšľali nad spôsobom, ako spúšťať Java kód v prehliadači, čím tiež priniesli interaktivitu do webových stránok. Táto implementácia však nebola jednoduchá na používanie a preto ostala voľbou korporátnych mastičov. Mocha (takto sa volala prvá verzia dnešného JavaScriptu) bola vytvorená ako alternatíva pre dizajnérov a vývojárov.
+Mimochodom - javisti v SUN Microsystems premýšľali nad spôsobom, ako spúšťať Java kód v prehliadači, čím tiež priniesli interaktivitu do webových stránok. Táto implementácia však nebola jednoduchá na používanie, a preto ostala voľbou korporátnych mastičov. Mocha (takto sa volala prvá verzia dnešného JavaScriptu) bola vytvorená ako alternatíva pre dizajnérov a vývojárov.
 
 ## Mocha » LiveScript » JavaScript vs JScript
 
-Vytvorenie prvej verzie Mocha trvalo len 10 dní. Neskôr bol tento jazyk premenovaný na LiveScript a potom na finálny JavaScript. Fun fact: slovo "Java" sa tam nedostalo náhodou - bol to však len marketingový spôsob ako sa zviesť na popularite jazyka Java.
+Vytvorenie prvej verzie Mocha trvalo len 10 dní. Neskôr bol tento jazyk premenovaný na LiveScript a potom na finálny JavaScript. Fun fact: slovo "Java" sa tam nedostalo náhodou - bol to však len marketingový spôsob, ako sa zviesť na popularite jazyka Java.
 
-Internet Explorer chcel tiež držať krok s dobou a preto začali aj v MS pracovať na implementácii čohosi, čo bolo veľmi podobné JavaScriptu. Finálny jazyk sa volal JScript. Implementácia však bola natoľko odlišná od JavaScript-u, že tieto implementácie neboli navzájom kompatibilné! Výsledkom bola skutočnosť, že nebolo možné vytvoriť jeden web, ktorý by fungoval v oboch prehliadačoch.
+Internet Explorer chcel tiež držať krok s dobou, a preto začali aj v MS pracovať na implementácii čohosi, čo bolo veľmi podobné JavaScriptu. Finálny jazyk sa volal JScript. Implementácia však bola natoľko odlišná od JavaScript-u, že tieto implementácie neboli navzájom kompatibilné! Výsledkom bola skutočnosť, že nebolo možné vytvoriť jeden web, ktorý by fungoval v oboch prehliadačoch.
 
-Tak vznikli slávne nálepky do footerov: "Best viewed in Internet Explorer" a "Best viewed in Netscape Navigator".
+Tak vznikli vtedy slávne nálepky do footerov: "Best viewed in Internet Explorer" a "Best viewed in Netscape Navigator".
 
 ![Best viewed in badges](how_javascript_features_are_born/best_viewed_in.png "Best Viewed In badges")
 
@@ -44,7 +44,7 @@ Komisia (rozumej: živé bytosti, ľudia), ktorá rozhoduje o tom, aké nové fu
 
 ## Nová funkcionalita v JS - schvaľovací proces
 
-Členovia TC-39 organizujú meetingy (väčšinou online) každé dva mesiace. Cieľom týchto meetingov je dopodrobna rozkecať a zanalyzovať ktoré funkcie bude obsahovať nová verzia ECMAScript, alebo aké opravy budú v tejto verzii vykonané. Zaujímavé je, že táto komisia funguje na princípe zhody - takmer všetci členovia komisie musia súhlasiť s návrhom, aby sa ním čo i len začali zaoberať.
+Členovia TC-39 organizujú meetingy (väčšinou online) každé dva mesiace. Cieľom týchto meetingov je dopodrobna rozkecať a zanalyzovať, ktoré funkcie bude obsahovať nová verzia ECMAScript, alebo aké opravy budú v tejto verzii vykonané. Zaujímavé je, že táto komisia funguje na princípe zhody - takmer všetci členovia komisie musia súhlasiť s návrhom, aby sa ním čo i len začali zaoberať.
 
 Celkom zaujímavé je napríklad sledovať, ako sa dostala do JavaScript-u podpora pre `BigInt` - brutálne veľké čísla. Lebo v JavaScripte sme doteraz mohli používať len strašne veľké čísla. 
 
@@ -52,7 +52,7 @@ Celkom zaujímavé je napríklad sledovať, ako sa dostala do JavaScript-u podpo
 Každý návrh začína na takzvanej nultej úrovni - Stage 0. Niektorý z členov TC-39 vytvorí [dokument](https://github.com/tc39/proposal-bigint/commit/c05ae7ee18542770637ae954ece4fc2e764a6101), ktorý popisuje danú funkcionalitu a aký problém rieši. Na meetingu členov TC-39 tento problém prednesie a členovia rozhodli, že napr. `BigInt` je super vec a posunuli ho do ďalšieho Stage-u.
 
 ### Stage 1
-Stage 1 je parádny úspech a zároveň to znamená, že niekedy v budúcnosti bude pravdepodobne daná funkcionalita súčasťou JavaScriptu. Všetkým (alebo takmer všetkým) členom TC-39 sa tento nápad páči a súhlasia s ním. Môže to však trvať roky. `BigInt` funkcionalita musí byť ešte podrobnejšie popísaná, musí obsahovať príklady ako sa bude používať a analýzu, či to neprinesie aj nejaké problémy.
+Stage 1 je parádny úspech a zároveň to znamená, že niekedy v budúcnosti bude pravdepodobne daná funkcionalita súčasťou JavaScriptu. Všetkým (alebo takmer všetkým) členom TC-39 sa tento nápad páči a súhlasia s ním. Môže to však trvať roky. `BigInt` funkcionalita musí byť ešte podrobnejšie popísaná, musí obsahovať príklady, ako sa bude používať a analýzu, či to neprinesie aj nejaké problémy.
 
 ### Stage 2
 Takzvaný Draft. V tejto fáze je viac menej isté, že funkcionalita bude súčasťou JavaScript-u a preto musí byť ešte podrobnejšie popísaná. Toto je tiež stage, kedy sa premýšľa nad vhodnou syntaxou a rôznymi detailami používania novej funkcionality. V prípade `BigInt` funkcionality napr. členovia rozhodli, že bude vhodné, ak BigInt číslo bude obsahovať na konci znak `n` - aby prehliadač (engine) vedel, že pracuje s brutálne veľkým číslom, a nie len strašne veľkým číslom. 
